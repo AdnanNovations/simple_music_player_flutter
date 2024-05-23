@@ -278,7 +278,7 @@ class MusicPlayer extends StatelessWidget {
                         decoration: BoxDecoration(
                             shape: BoxShape.circle,
                             image: DecorationImage(
-                                image: AssetImage(mpc.musicList[0]["image"]),
+                                image: AssetImage(mpc.musicList[mpc.selectedMusic.value]["image"]),
                                 fit: BoxFit.cover
                             )
                         ),
